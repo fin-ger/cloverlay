@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>cloverlay</name>
+    <description lang="en">This overlay contains ebuilds for installing the clover efi bootloader under a gentoo system.</description>
+    <homepage>https://github.com/fin-ger/cloverlay</homepage>
+    <owner type="person">
+      <email>christensen.fin@gmail.com</email>
+      <name>Fin Christensen</name>
+    </owner>
+    <source branch="master" type="git">git://github.com/fin-ger/cloverlay.git</source>
+    <feed>https://github.com/fin-ger/cloverlay/commits/master.atom</feed>
+  </repo>
+</repositories>
